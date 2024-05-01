@@ -8,15 +8,15 @@ async def start_srb(event, st):
                       buttons=[
                               [Button.inline("SET THUMB.", data="set"),
                                Button.inline("REM THUMB.", data="rem")],
-                              [Button.url("DEV", url="t.me/SourcePleaseOfficial")]])
+                              [Button.url("DEV", url="t.me/SourcePleaseML")]])
                               
     
 async def vc_menu(event):
-    await event.edit("**VIDEO CONVERTOR**", 
+    await event.edit("**Video Trimmer**", 
                     buttons=[
                         [Button.inline("info.", data="info"),
                          Button.inline("SOURCE", data="source")],
                         [Button.inline("NOTICE.", data="notice"),
                          Button.inline("Main.", data="help")],
-                        [Button.url("Update", url="t.me/SourcePleaseOfficial")]])
+                        [Button.url("Update", url="t.me/SourcePleaseML")]])
     
